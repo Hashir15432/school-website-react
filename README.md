@@ -5,7 +5,7 @@
 
 ## 🖼️ Demo
 
-👉 [Live Demo](https://www.cambridgesmartschool.com/)
+👉 [Live Demo](https://school-website-react-ashen.vercel.app/)
 
 ---
 
@@ -32,7 +32,7 @@
 
 **Cambridge-Innovative-School** is a modern React-based frontend template crafted for educational platforms, focusing on speed, scalability, and maintainability. It leverages Vite for rapid builds, Tailwind CSS for streamlined styling, and a modular component architecture to facilitate scalable development.
 
-### Why cambridge-innovative-school?
+### Why School Project Summary
 
 This project aims to deliver a fast, responsive, and easy-to-maintain frontend foundation for school websites. The core features include:
 
@@ -63,7 +63,7 @@ Build `cambridge-innovative-school` from the source and install dependencies:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/prashant19982004/cambridge-innovative-school
+    git clone https://github.com/Hashir15432/school-website-react
     ```
 
 2. **Navigate to the project directory**:
