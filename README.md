@@ -1,4 +1,5 @@
-# CAMBRIDGE-INNOVATIVE-SCHOOL
+# school-website-react
+
 
 
 ---
@@ -30,7 +31,7 @@
 
 ## Overview
 
-**Cambridge-Innovative-School** is a modern React-based frontend template crafted for educational platforms, focusing on speed, scalability, and maintainability. It leverages Vite for rapid builds, Tailwind CSS for streamlined styling, and a modular component architecture to facilitate scalable development.
+**school-website-react** is a modern React-based frontend template crafted for educational platforms, focusing on speed, scalability, and maintainability. It leverages Vite for rapid builds, Tailwind CSS for streamlined styling, and a modular component architecture to facilitate scalable development.
 
 ### Why School Project Summary
 
@@ -58,7 +59,7 @@ This project requires the following dependencies:
 
 ### Installation
 
-Build `cambridge-innovative-school` from the source and install dependencies:
+Build `school-website-react` from the source and install dependencies:
 
 1. **Clone the repository**:
 
@@ -69,7 +70,7 @@ Build `cambridge-innovative-school` from the source and install dependencies:
 2. **Navigate to the project directory**:
 
     ```bash
-    cd cambridge-innovative-school
+    cd school-website-react
     ```
 
 3. **Install the dependencies**:
