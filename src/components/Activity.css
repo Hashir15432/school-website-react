@@ -1,0 +1,12 @@
+.activiy_box{
+    transition: all ease-in-out 0.3s;
+}
+
+.activiy_box_para{
+    color : #71717a;
+    transition: all ease-in-out 0.3s;
+}
+
+.activiy_box:hover .activiy_box_para{
+    color: white;
+}

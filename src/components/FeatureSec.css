@@ -1,0 +1,14 @@
+@media (min-width : 450px) {
+    #feature_img_div{
+        width : 40%;
+        height : 150px;
+    }
+    #feature_content{
+        width: 50%;
+        align-items: start;
+        padding-bottom: 0px;
+    }
+    #feature_content>p{
+        text-align: left;
+    }
+}

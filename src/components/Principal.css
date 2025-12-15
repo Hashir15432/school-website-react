@@ -1,0 +1,26 @@
+  ::-webkit-scrollbar { width: 10px; }
+  
+   ::-webkit-scrollbar-track { background-color: hsl(0, 0%, 98%); }
+  
+  ::-webkit-scrollbar-thumb { background-color: hsl(0, 0%, 80%); }
+  
+  ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
+  
+
+ .about-shape-2 {
+    
+    animation: bounce 2.5s infinite;
+  }
+  
+  @keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% { transform: translateY(0); }
+  
+    40% { transform: translateY(-30px); }
+  
+    60% { transform: translateY(-15px); }
+  }
+  
