@@ -91,3 +91,5 @@ Using **npm**:
 
 ```bash
 npm start
+or
+npm run dev
