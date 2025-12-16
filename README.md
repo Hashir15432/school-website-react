@@ -38,7 +38,7 @@
 This project aims to deliver a fast, responsive, and easy-to-maintain frontend foundation for school websites. The core features include:
 
 -  **Fast Development**: Utilizes Vite with React for quick builds and hot module replacement, enhancing developer productivity.
--  **Tailwind CSS Integration**: Simplifies styling with a configured PostCSS setup, enabling consistent and responsive design.
+-  **Tailwind CSS Integration**: Simplifies styling with a configured CSS setup, enabling consistent and responsive design.
 -  **Modular Components**: Offers a structured, component-driven architecture for scalable UI development.
 -  **Responsive & Interactive UI**: Features animated navigation and adaptable layouts for seamless user experiences.
 -  **Clear Project Structure**: Organized setup with dedicated pages and components for easy maintenance and extension.
