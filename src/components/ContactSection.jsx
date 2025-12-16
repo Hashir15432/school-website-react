@@ -125,9 +125,16 @@ const ContactSection = () => {
                             <span>Email Address</span>
                         </div>
                         <div className="inputBox w50">
-                            <input type="number" name="contact" value={contactData.contact} onChange={changeHandler} required />
+                            <input
+                                type="tel"
+                                name="contact"
+                                value={contactData.contact}
+                                onChange={changeHandler}
+                                required
+                            />
                             <span>Contact</span>
                         </div>
+
                         <div className="inputBox w100">
                             <textarea name='message' onChange={changeHandler} value={contactData.message} required></textarea>
                             <span>Write your message here...</span>
