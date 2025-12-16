@@ -42,8 +42,7 @@ This project aims to deliver a fast, responsive, and easy-to-maintain frontend f
 -  **Modular Components**: Offers a structured, component-driven architecture for scalable UI development.
 -  **Responsive & Interactive UI**: Features animated navigation and adaptable layouts for seamless user experiences.
 -  **Clear Project Structure**: Organized setup with dedicated pages and components for easy maintenance and extension.
--  **Optimized Tooling**: Incorporates ESLint, Babel/SWC, and other tools to ensure code quality and performance.
-
+-  **Optimized Tooling**: Uses modern development tools to keep the code clean, fast, and high-performance.
 ---
 
 ## Getting Started
