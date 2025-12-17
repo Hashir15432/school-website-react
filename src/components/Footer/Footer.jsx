@@ -1,4 +1,4 @@
-import logo from '../assets/logo.webp';
+import logo from '.././../assets/logo.webp';
 import { FaLocationDot, FaPhoneFlip, FaRegClock } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 
@@ -46,7 +46,6 @@ const Footer = () => {
                     <ul className='list-none flex flex-col gap-1'>
                         <li><Link to='/' className='text-zinc-700 footer-links'>Home</Link></li>
                         <li><Link to='/about' className='text-zinc-700 footer-links'>About</Link></li>
-                        {/* <li><a href='#' className='text-zinc-700 footer-links'>Facilities</a></li> */}
                         <li><Link to='/contact' className='text-zinc-700 footer-links'> Contact Us</Link></li>
                         {/* <li><a href='#' className='text-zinc-700 footer-links'>Home</a></li> */}
                     </ul>

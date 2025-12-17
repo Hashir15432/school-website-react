@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import './Navbar.css';
 // import logo from '../assets/logo.jpg';
-import logo_full from '../assets/logo-full.webp';
+import logo_full from '.././../assets/logo-full.webp';
 import { FaLocationDot, FaPhoneFlip, FaRegClock } from "react-icons/fa6";
 import gsap from 'gsap';
 // import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
@@ -38,8 +38,6 @@ const Navbar = () => {
 
     let menuClick = () => {
         let navbar = document.querySelector('.navbarr');
-        // console.log("hII");
-        //   menu.classList.toggle('bi-x');
         navbar.classList.toggle('open');
     }
 
@@ -87,18 +85,13 @@ const Navbar = () => {
                     </div>
                     <hr className='nav_line' />
                     <ul className="navbarr">
-                        {/* <li><a href="#home" class="active">Home</a></li> */}
                         <li><Link to='/'>Home</Link></li>
-                        {/* <li><a href="#services">Facilities</a></li> */}
                         <li><Link to='/about'>About Us</Link></li>
-                        {/* <li><a href="#contact">Contact</a></li> */}
                         <li><Link to='/contact'>Contact</Link></li>
                     </ul>
                 </div>
 
 
-                {/* <bi onClick={menuClick} class="bi-list" id="menu-icon"></bi> */}
-                {/* <IoMenu onClick={menuClick} id='menu-icon'/> */}
                 <input onClick={menuClick} type="checkbox" role="button" aria-label="Display the menu" className="menu" id='menu-icon'></input>
             </header>
         </div>

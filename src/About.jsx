@@ -1,10 +1,10 @@
-import HeroSecond from './components/HeroSecond'
+import HeroSecond from './components/Hero/HeroSecond'
 // import Vision from './components/Vision'
 import AboutSecond from './components/About/AboutSecond'
 import AboutForth from './components/About/AboutForth'
-import Activity from './components/Activity'
-import Review from './components/Review'
-import Principal from './components/Principal'
+import Activity from './components/Activity/Activity'
+import Review from './components/Review/Review'
+import Principal from './components/Principal/Principal'
 
 const About = () => {
   return (

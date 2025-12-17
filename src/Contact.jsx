@@ -1,6 +1,6 @@
-import ContactSection from './components/ContactSection'
-import ContactInfo from './components/ContactInfo'
-import HeroSecond from './components/HeroSecond'
+import ContactSection from './components/Contact/ContactSection'
+import ContactInfo from './components/Contact/ContactInfo'
+import HeroSecond from './components/Hero/HeroSecond'
 
 const Contact = () => {
   return (

@@ -1,6 +1,6 @@
-import activity_pic from '../assets/activity_pic.webp';
+import activity_pic from '.././../assets/activity_pic.webp';
 import './Activity.css';
-import './style.css';
+import '../Style/style.css';
 import { useEffect } from 'react';
 const Activity = () => {
 

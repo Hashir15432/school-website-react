@@ -1,10 +1,10 @@
-import './Principal.css';
-import principal_one from '../assets/about-shape-3.webp';
-import campus from '../assets/campus.webp';
-import education from '../assets/education.webp';
-import reading from '../assets/reading.webp';
-import forest from '../assets/forest.webp';
-import graduation from '../assets/graduation.webp';
+import '../Principal/Principal.css';
+import principal_one from '.././../assets/about-shape-3.webp';
+import campus from '.././../assets/campus.webp';
+import education from '.././../assets/education.webp';
+import reading from '.././../assets/reading.webp';
+import forest from '.././../assets/forest.webp';
+import graduation from '.././../assets/graduation.webp';
 
 const Campus = () => {
 

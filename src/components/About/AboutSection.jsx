@@ -1,7 +1,7 @@
-import './style.css';
-import about_one from '../assets/about_pic4.webp';
-import about_two from '../assets/about_pic2.webp';
-import check_mark from '../assets/check-mark.webp';
+import '../Style/style.css';
+import about_one from '.././../assets/about_pic4.webp';
+import about_two from '.././../assets/about_pic2.webp';
+import check_mark from '.././../assets/check-mark.webp';
 import { FaArrowRightLong } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';

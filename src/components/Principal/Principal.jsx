@@ -1,8 +1,8 @@
 import './Principal.css';
-import about_banner from '../assets/principal_banner.webp';
-import principal_one from '../assets/about-shape-3.webp';
-import principal_name from '../assets/principal_name.webp';
-import principal_contact from '../assets/principal_contact.webp';
+import about_banner from '.././../assets/principal_banner.webp';
+import principal_one from '.././../assets/about-shape-3.webp';
+import principal_name from '.././../assets/principal_name.webp';
+import principal_contact from '.././../assets/principal_contact.webp';
 
 const Principal = () => {
 

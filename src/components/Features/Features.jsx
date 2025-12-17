@@ -1,9 +1,9 @@
-import apple_and_books from '../assets/apple-and-books.webp';
-import games from '../assets/games.webp';
-import open_book from '../assets/open-book.webp';
-import school from '../assets/school.webp';
-import seesaw from '../assets/seesaw.webp';
-import sister_and_brother from '../assets/sister-and-brother.webp';
+import apple_and_books from '.././../assets/apple-and-books.webp';
+import games from '.././../assets/games.webp';
+import open_book from '.././../assets/open-book.webp';
+import school from '.././../assets/school.webp';
+import seesaw from '.././../assets/seesaw.webp';
+import sister_and_brother from '.././../assets/sister-and-brother.webp';
 import { useEffect } from 'react';
 const Features = () => {
 

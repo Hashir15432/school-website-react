@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
-import './style.css';
-import hero_pic1 from '../assets/hero_pic2.webp';
+import '../Style/style.css';
+import hero_pic1 from '.././../assets/hero_pic2.webp';
 import gsap from 'gsap';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import { Link } from 'react-router-dom';
@@ -25,46 +25,6 @@ const Hero = () => {
     elements.forEach((el) => observer.observe(el));
   }, []);
 
-
-  // useEffect(() => {
-  //   gsap.fromTo("#hero_content", {
-  //     x: -800,
-  //   },
-  //     {
-  //       x: 0,
-  //       duration: 1,
-  //       delay: 1
-  //       // delay : 3,
-  //       // scrollTrigger:{
-  //       //     scroller:"body",
-  //       //     trigger: ".main_navbar",
-  //       //     // markers : true,
-  //       //     start : "top -25%",
-  //       //     end : "top -35%",
-  //       //     scrub : 0
-  //       // } 
-  //     })
-
-  //   gsap.fromTo(".hero_images", {
-  //     scale: 0
-  //   },
-  //     {
-  //       scale: 1,
-  //       duration: 1,
-  //       delay: 1
-  //       // delay : 3,
-  //       // scrollTrigger:{
-  //       //     scroller:"body",
-  //       //     trigger: ".main_navbar",
-  //       //     // markers : true,
-  //       //     start : "top -25%",
-  //       //     end : "top -35%",
-  //       //     scrub : 0
-  //       // } 
-  //     })
-  // }, [])
-
-
   return (
     <div>
       <div className='w-[100%] px-[20px] lg:px-[50px] md:relative' id='hero'>
@@ -84,7 +44,6 @@ const Hero = () => {
             <div className='hero_images rounded-full h-[10vw] w-[10vw] absolute right-1 top-1 bg-[#f37335]'></div>
             <div className='hero_images rounded-full h-[4vw] w-[4vw] absolute right-40 top-40 bg-[#f37335]'></div>
             <div className='hero_images rounded-full h-[4vw] w-[4vw] absolute left-0 bottom-52 bg-[#fdc830]'></div>
-            {/* <div className='rounded-full h-[10vw] w-[10vw] absolute right-1 top-1 bg-[#f37335]'></div> */}
           </div>
         </div>
       </div>
